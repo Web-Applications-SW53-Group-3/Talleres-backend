@@ -11,4 +11,5 @@ public class WeatherForecast
     public int TemperatureK => (int)(((TemperatureF - 32) / 1.8) + 273.15);
 
     public string? Summary { get; set; }
+    
 }
