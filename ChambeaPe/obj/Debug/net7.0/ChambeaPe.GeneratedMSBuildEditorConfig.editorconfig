@@ -9,17 +9,9 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChambeaPe
 build_property.RootNamespace = ChambeaPe
-<<<<<<< HEAD
-build_property.ProjectDir = D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\
+build_property.ProjectDir = D:\UPC\Ciclo V\Aplicaciones web\Ejercicios\Semana 2.2\Talleres-backend\ChambeaPe\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe
-=======
-build_property.ProjectDir = D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe
->>>>>>> f6ffcd90b0b9940791e7b4684466bf49dd6c350b
+build_property.MSBuildProjectDirectory = D:\UPC\Ciclo V\Aplicaciones web\Ejercicios\Semana 2.2\Talleres-backend\ChambeaPe
 build_property._RazorSourceGeneratorDebug = 

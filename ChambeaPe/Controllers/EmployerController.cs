@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ChambeaPe.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,9 +21,14 @@ namespace ChambeaPe.Controllers
 
         // GET: api/Employer/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public Employer Get(int id)
         {
-            return "value";
+            Employer employer = new Employer();
+            employer.id = id;
+            employer.name = "Employer ";
+            employer.lastname = id.ToString();
+            employer.dni = "87654321";
+            return employer;
         }
 
         // POST: api/Employer
