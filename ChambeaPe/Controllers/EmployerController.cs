@@ -12,15 +12,18 @@ namespace ChambeaPe.Controllers
     [ApiController]
     public class EmployerController : ControllerBase
     {
+        private static List<Employer> employers = new List<Employer>
+        {
+            new Employer { Id = 1, Name = "Steve", Lastname = "Roger", Dni = "123456789" },
+            new Employer { Id = 2, Name = "Jennifer", Lastname = "Espinoza", Dni = "987654321" },
+            new Employer { Id = 3 , Name = "Jhon", Lastname = "Doe", Dni = "123456789" },
+            new Employer { Id = 4, Name = "Richard", Lastname = "Smith", Dni = "987655321" },
+        };
+        
         // GET: api/Employer
         [HttpGet]
-        public IEnumerable<Employer> Get()
+        public List<Employer> Get()
         {
-            IEnumerable<Employer> employers = new List<Employer>
-            {
-                new Employer { id = 1, name = "Steve", lastname = "Roger", dni = "123456789" },
-                new Employer { id = 2, name = "Jennifer", lastname = "Espinoza", dni = "987654321" }
-            };
             return employers;
         }   
 
@@ -29,10 +32,10 @@ namespace ChambeaPe.Controllers
         public Employer Get(int id)
         {
             Employer employer = new Employer();
-            employer.id = id;
-            employer.name = "Employer ";
-            employer.lastname = id.ToString();
-            employer.dni = "87654321";
+            employer.Id = id;
+            employer.Name = "Employer ";
+            employer.Lastname = id.ToString();
+            employer.Dni = "87654321";
             return employer;
         }
 
@@ -42,12 +45,12 @@ namespace ChambeaPe.Controllers
         {
             try
             {
-                if (string.IsNullOrEmpty(employer.name))
+                if (string.IsNullOrEmpty(employer.Name))
                 {
                     return BadRequest("Employer name is required."); // 400 Bad Request
                 }
 
-                if (employer.name == "employer")
+                if (employer.Name == "employer")
                 {
                     throw new Exception("Unexpected error");
                 }
@@ -74,7 +77,31 @@ namespace ChambeaPe.Controllers
         public void Put(int id, [FromBody] string value)
         {
         }
-
+        
+        // PATCH: api/Employer/5
+        [HttpPatch("{id}")]
+        public StatusCodeResult Patch(int id, [FromBody] string value)
+        {
+            try
+            {
+                Employer employerToUpdate = employers.FirstOrDefault(e => e.Id == id);
+                if (value == null || value=="")
+                {
+                    return StatusCode(400);
+                }
+                else
+                {
+                    employerToUpdate.Name = value;
+                    return StatusCode(201);
+                }
+            }
+            catch (Exception ex)
+            {
+                //logear el error
+                return StatusCode(500);
+            }
+        }
+        
         // DELETE: api/Employer/5
         [HttpDelete("{id}")]
         public void Delete(int id)

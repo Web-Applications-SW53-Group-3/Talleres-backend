@@ -10117,25 +10117,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HOME\\.nuget\\packages\\": {}
+    "C:\\Users\\jenni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPC\\Ciclo V\\Aplicaciones web\\Ejercicios\\Semana 2.2\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
+      "projectUniqueName": "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
       "projectName": "ChambeaPe",
-      "projectPath": "D:\\UPC\\Ciclo V\\Aplicaciones web\\Ejercicios\\Semana 2.2\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
-      "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-      "outputPath": "D:\\UPC\\Ciclo V\\Aplicaciones web\\Ejercicios\\Semana 2.2\\Talleres-backend\\ChambeaPe\\obj\\",
+      "projectPath": "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
+      "packagesPath": "C:\\Users\\jenni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jenni\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Users\\jenni\\.dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10186,16 +10186,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\jenni\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\UPC\\Ciclo V\\Aplicaciones web\\Ejercicios\\Semana 2.2\\Talleres-backend\\ChambeaPe\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
