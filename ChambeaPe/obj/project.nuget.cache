@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "JcapdF38RWOTt7cIMp9yEv6PaWBcoI10Bw8uh0JftFtof92YcGxBBM4vIudMBmuEkkw0PacT5v6xdvm0yQbiCw==",
   "success": true,
   "projectFilePath": "D:\\Steve Universidad\\5nto Ciclo\\App Web\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
@@ -198,6 +199,19 @@
     "C:\\Users\\STEVE\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\STEVE\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\STEVE\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+=======
+  "dgSpecHash": "GjeGgG8NwmZt+LuvHqe++865O20ffbO2dk3mPxZ9qXH4DoEnHDsehn3CYMupkum+j9qijsOYcqb2836wQNe0HQ==",
+  "success": true,
+  "projectFilePath": "D:\\Universidad\\Ciclo 5\\Aplicaciones web\\Trabajo\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\esqui\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.8\\microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
+    "C:\\Users\\esqui\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\esqui\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\esqui\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\esqui\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\esqui\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\esqui\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+>>>>>>> f6ffcd90b0b9940791e7b4684466bf49dd6c350b
   ],
   "logs": []
 }

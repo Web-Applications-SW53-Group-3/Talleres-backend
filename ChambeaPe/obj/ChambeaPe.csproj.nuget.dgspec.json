@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Steve Universidad\\5nto Ciclo\\App Web\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj": {}
   },
   "projects": {
@@ -12,21 +13,38 @@
         "projectPath": "D:\\Steve Universidad\\5nto Ciclo\\App Web\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
         "packagesPath": "C:\\Users\\STEVE\\.nuget\\packages\\",
         "outputPath": "D:\\Steve Universidad\\5nto Ciclo\\App Web\\Talleres-backend\\ChambeaPe\\obj\\",
+=======
+    "D:\\Universidad\\Ciclo 5\\Aplicaciones web\\Trabajo\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj": {}
+  },
+  "projects": {
+    "D:\\Universidad\\Ciclo 5\\Aplicaciones web\\Trabajo\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Universidad\\Ciclo 5\\Aplicaciones web\\Trabajo\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
+        "projectName": "ChambeaPe",
+        "projectPath": "D:\\Universidad\\Ciclo 5\\Aplicaciones web\\Trabajo\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
+        "packagesPath": "C:\\Users\\esqui\\.nuget\\packages\\",
+        "outputPath": "D:\\Universidad\\Ciclo 5\\Aplicaciones web\\Trabajo\\Talleres-backend\\ChambeaPe\\obj\\",
+>>>>>>> f6ffcd90b0b9940791e7b4684466bf49dd6c350b
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\STEVE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "C:\\Users\\esqui\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> f6ffcd90b0b9940791e7b4684466bf49dd6c350b
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+=======
+>>>>>>> f6ffcd90b0b9940791e7b4684466bf49dd6c350b
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +95,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> f6ffcd90b0b9940791e7b4684466bf49dd6c350b
         }
       }
     }

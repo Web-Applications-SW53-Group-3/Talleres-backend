@@ -64,6 +64,7 @@ C:\Users\diego\Documents\Universidad\UPC\2023-2\Aplicaciones Web\Codigo\Talleres
 C:\Users\diego\Documents\Universidad\UPC\2023-2\Aplicaciones Web\Codigo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.pdb
 C:\Users\diego\Documents\Universidad\UPC\2023-2\Aplicaciones Web\Codigo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.genruntimeconfig.cache
 C:\Users\diego\Documents\Universidad\UPC\2023-2\Aplicaciones Web\Codigo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ref\ChambeaPe.dll
+<<<<<<< HEAD
 D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\bin\Debug\net7.0\appsettings.Development.json
 D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\bin\Debug\net7.0\appsettings.json
 D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\bin\Debug\net7.0\ChambeaPe.exe
@@ -288,3 +289,38 @@ D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\bin\Debug\net
 D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Steve Universidad\5nto Ciclo\App Web\Talleres-backend\ChambeaPe\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+=======
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\appsettings.Development.json
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\appsettings.json
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\ChambeaPe.exe
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\ChambeaPe.deps.json
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\ChambeaPe.runtimeconfig.json
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\ChambeaPe.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\ChambeaPe.pdb
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.csproj.AssemblyReference.cache
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.AssemblyInfoInputs.cache
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.AssemblyInfo.cs
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.csproj.CoreCompileInputs.cache
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.MvcApplicationPartsAssemblyInfo.cs
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.MvcApplicationPartsAssemblyInfo.cache
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\staticwebassets\msbuild.ChambeaPe.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\staticwebassets\msbuild.build.ChambeaPe.props
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ChambeaPe.props
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ChambeaPe.props
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\staticwebassets.build.json
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\staticwebassets.development.json
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\scopedcss\bundle\ChambeaPe.styles.css
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.csproj.CopyComplete
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\refint\ChambeaPe.dll
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.pdb
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ChambeaPe.genruntimeconfig.cache
+D:\Universidad\Ciclo 5\Aplicaciones web\Trabajo\Talleres-backend\ChambeaPe\obj\Debug\net7.0\ref\ChambeaPe.dll
+>>>>>>> f6ffcd90b0b9940791e7b4684466bf49dd6c350b
