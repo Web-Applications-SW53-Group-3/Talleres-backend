@@ -14,10 +14,15 @@ namespace ChambeaPe.Controllers
     {
         // GET: api/Employer
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Employer> Get()
         {
-            return new string[] { "value1", "value2" };
-        }
+            IEnumerable<Employer> employers = new List<Employer>
+            {
+                new Employer { id = 1, name = "Steve", lastname = "Roger", dni = "123456789" },
+                new Employer { id = 2, name = "Jennifer", lastname = "Espinoza", dni = "987654321" }
+            };
+            return employers;
+        }   
 
         // GET: api/Employer/5
         [HttpGet("{id}", Name = "Get")]
@@ -31,11 +36,38 @@ namespace ChambeaPe.Controllers
             return employer;
         }
 
-        // POST: api/Employer
+        // POST: api/Category
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] Employer employer)
         {
+            try
+            {
+                if (string.IsNullOrEmpty(employer.name))
+                {
+                    return BadRequest("Employer name is required."); // 400 Bad Request
+                }
+
+                if (employer.name == "employer")
+                {
+                    throw new Exception("Unexpected error");
+                }
+
+
+                return StatusCode(201); // 201 Created
+            }
+            catch (Exception ex)
+            {
+
+                var errorResponse = new
+                {
+                    message = "An error occurred while processing the request.",
+                    details = ex.Message
+                };
+
+                return StatusCode(500, errorResponse); // 500 Internal Server Error
+            }
         }
+
 
         // PUT: api/Employer/5
         [HttpPut("{id}")]
