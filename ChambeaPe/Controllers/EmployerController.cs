@@ -80,7 +80,7 @@ namespace ChambeaPe.Controllers
         
         // PATCH: api/Employer/5
         [HttpPatch("{id}")]
-        public StatusCodeResult Patch(int id, [FromBody] string value)
+        public IActionResult Patch(int id, [FromBody] string value)
         {
             try
             {
@@ -97,8 +97,13 @@ namespace ChambeaPe.Controllers
             }
             catch (Exception ex)
             {
-                //logear el error
-                return StatusCode(500);
+                // Devolver una respuesta de error con detalles
+                var errorResponse = new
+                {
+                    message = "An error occurred while processing the request.",
+                    details = ex.Message
+                };
+                return StatusCode(500, errorResponse);
             }
         }
         
