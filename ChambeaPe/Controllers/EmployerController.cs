@@ -74,8 +74,24 @@ namespace ChambeaPe.Controllers
 
         // PUT: api/Employer/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(int id, [FromBody] Employer employer)
         {
+            try
+            {
+                Employer employerToUpdate = employers.First(e => e.Id == id);
+
+                employerToUpdate.Id = employer.Id;
+                employerToUpdate.Dni = employer.Dni;
+                employerToUpdate.Name = employer.Name;
+                employerToUpdate.Lastname = employer.Lastname;
+            }
+            catch (InvalidOperationException)
+            {
+                //Si el id recibido no existe
+                return UnprocessableEntity("Invalid employer Id");
+            }
+
+            return Ok();
         }
         
         // PATCH: api/Employer/5

@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj": {}
+    "C:\\Users\\diego\\Documents\\Universidad\\UPC\\2023-2\\Aplicaciones Web\\Codigo\\Talleres\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj": {
+    "C:\\Users\\diego\\Documents\\Universidad\\UPC\\2023-2\\Aplicaciones Web\\Codigo\\Talleres\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Documents\\Universidad\\UPC\\2023-2\\Aplicaciones Web\\Codigo\\Talleres\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
         "projectName": "ChambeaPe",
-        "projectPath": "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
-        "packagesPath": "C:\\Users\\jenni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jenni\\RiderProjects\\applicaciones-web\\01-taller\\LibraryCenterAPI\\Talleres-backend\\ChambeaPe\\obj\\",
+        "projectPath": "C:\\Users\\diego\\Documents\\Universidad\\UPC\\2023-2\\Aplicaciones Web\\Codigo\\Talleres\\Talleres-backend\\ChambeaPe\\ChambeaPe.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diego\\Documents\\Universidad\\UPC\\2023-2\\Aplicaciones Web\\Codigo\\Talleres\\Talleres-backend\\ChambeaPe\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jenni\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Users\\jenni\\.dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\jenni\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
