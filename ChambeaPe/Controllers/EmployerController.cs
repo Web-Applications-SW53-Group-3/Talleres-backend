@@ -125,8 +125,29 @@ namespace ChambeaPe.Controllers
         
         // DELETE: api/Employer/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            try
+            {
+                Employer employerToRemove = employers.FirstOrDefault(e => e.Id == id);
+
+                if (employerToRemove == null)
+                {
+                    return NotFound();
+                }
+
+                employers.Remove(employerToRemove);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = new
+                {
+                    message = "An error occurred while processing the request.",
+                    details = ex.Message
+                };
+                return StatusCode(500, errorResponse);
+            }
         }
     }
 }
